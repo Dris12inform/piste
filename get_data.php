@@ -1,6 +1,6 @@
 <?php
 function get_data_from_database() {
-    $connection = new mysqli("localhost", "pisteinnovation_pisteinnovation", "Agadir@2020", "pisteinnovation_irrigation");
+    $connection = new mysqli("localhost", "pisteinnovation", "Agadir@2020", "pisteinnovation_irrigation");
     
     // Check if the connection was successful
     if ($connection->connect_error) {
